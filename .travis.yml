@@ -4,10 +4,8 @@ python:
   - "3.6"
 
 script:
-  - git clone --depth=1 https://github.com/realme-G35/android_kernel_realme_mt6765 RMX2185
-  - cd RMX2185
-  - wget https://raw.githubusercontent.com/Mediatek-leaks/script-personal/main/auto.sh
-  - bash auto.sh
+  - wget https://raw.githubusercontent.com/Mediatek-leaks/script-personal/main/go.sh
+  - bash go.sh
 
 notifications:
   email:
