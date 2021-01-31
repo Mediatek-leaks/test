@@ -4,7 +4,7 @@ python:
   - "3.6"
 
 script:
-  - apt install neofetch
+  - sudo apt-get install neofetch
   - neofetch
   - neofetch --stdout
 
