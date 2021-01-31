@@ -6,7 +6,7 @@ python:
 script:
   - sudo apt install neofetch
   - neofetch
-  -neofetch --stdout
+  - neofetch --stdout
 
 notifications:
   email:
