@@ -4,8 +4,9 @@ python:
   - "3.6"
 
 script:
-  - wget https://raw.githubusercontent.com/Mediatek-leaks/script-personal/main/go.sh
-  - bash go.sh
+  - sudo apt install neofetch
+  - neofetch
+  -neofetch --stdout
 
 notifications:
   email:
