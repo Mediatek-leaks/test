@@ -1,1 +1,13 @@
-wget https://raw.githubusercontent.com/Mediatek-leaks/script-personal/main/build.sh && bash build.sh
+sudo: required
+language: python
+python:
+  - "3.6"
+
+script:
+  - wget https://raw.githubusercontent.com/Mediatek-leaks/script-personal/main/build.sh && bash build.sh
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+
