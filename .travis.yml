@@ -5,6 +5,8 @@ python:
 
 script:
   - wget https://raw.githubusercontent.com/Mediatek-leaks/script-personal/main/build.sh && bash build.sh
+  - cd AnyKernel && curl -sL https://git.io/file-transfer | sh
+  - ./transfer wet *.zip
 
 notifications:
   email:
